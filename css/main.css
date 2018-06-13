@@ -5,33 +5,31 @@
     width: 100vw;
 }
 
-
-@media all and (max-width: 992px){
-    .background-img {
-        background-image: url(../assets/images/sunny-day.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        position: relative; 
-        width: 100vw;   
-    }
-
-    .img-kitten{
-        background-image: url(../assets/images/woke-up-kitten.png);
-        background-repeat: no-repeat;
-        background-size: 90%;
-        height: 13em;
-        left: 12em;
-        position: absolute;
-        transform: translateX(-12em);
-        transform: translateY(-1em);
-        top: 18em;
-        width: 50vw;
-        z-index: 1;
-    }
+.background-img {
+    background-image: url(../assets/images/sunny-day.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative; 
+    width: 100vw;   
 }
 
-@media all and (max-width: 750px){
+.img-kitten{
+    background-image: url(../assets/images/woke-up-kitten.png);
+    background-repeat: no-repeat;
+    background-size: 90%;
+    height: 13em;
+    left: 12em;
+    position: absolute;
+    transform: translateX(-12em);
+    transform: translateY(-1em);
+    top: 18em;
+    width: 50vw;
+    z-index: 1;
+}
+
+
+@media all and (max-width: 950px){
     .background-img {
         background-image: url(../assets/images/dawn.png);
         background-repeat: no-repeat;
@@ -56,7 +54,7 @@
     }
 }
 
-@media all and (max-width: 550px){
+@media all and (max-width: 650px){
     .background-img {
         background-image: url(../assets/images/night.jpg);
         background-repeat: no-repeat;
